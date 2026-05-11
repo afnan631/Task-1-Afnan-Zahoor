@@ -10,19 +10,22 @@
    background:black;
    
 }
-.curveline::before{
-    content:' ';
-    width:100%;
-    height:100%;
-    position:absolute;
-    z-index:1;
-    background:linear-gradient(     to right,
-    #1a1a1a 0%,        /* light black at far left */
-    #1a1a1a 10%,        /* light black stays till 8% */
-    transparent 25%,   /* line appears at 25% */
-    transparent 75%,   /* line fades at 75% */
-    #1a1a1a 90%,       /* light black starts at 92% */
-    #1a1a1a 100%       /* light black at far right */
+.curveline::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1) 0%,       /* fully black */
+        rgba(0, 0, 0, 0.8) 10%,    /* slightly transparent */
+        rgba(0, 0, 0, 0) 25%,      /* fully transparent */
+        rgba(0, 0, 0, 0) 75%,      /* fully transparent */
+        rgba(0, 0, 0, 0.8) 90%,    /* slightly transparent */
+        rgba(0, 0, 0, 1) 100%      /* fully black */
     );
 }
 .curveline::after{

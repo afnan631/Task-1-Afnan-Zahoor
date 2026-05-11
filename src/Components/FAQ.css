@@ -1,0 +1,51 @@
+.FAQSection{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:auto;
+}
+.FAQ{
+    margin-bottom:10px;
+    margin-top:65px;
+}
+.Questions{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:auto;
+    gap:10px;
+}
+.Question{
+display:flex;
+    flex-direction:row;
+    width:100%;
+    height:auto;
+    justify-content:space-between;
+    align-items:center;
+     background:#2b2b2b;
+     transition: background 0.3s ease;
+     
+}
+.QuestionStatement{
+    color:white;
+    font-weight:500;
+    font-size:25px;
+}
+.expandbtn{
+    background:#2b2b2b;
+    border:none;
+    color:white;
+    margin-right:10px;
+     transition: background 0.3s ease;
+        font-weight: 100;    /* ← thinner */
+    font-size: 59px; 
+    padding:0px 6px;
+}
+ .Question:hover{
+      background:#444343;
+       cursor:pointer;
+ }
+.Question:hover .expandbtn{
+      background:#444343;
+      cursor:pointer;
+ }

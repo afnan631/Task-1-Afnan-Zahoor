@@ -1,0 +1,81 @@
+.ReasonToJoinBox{
+      display:flex;
+      flex-direction:column;
+     width:100%;
+     height:auto;
+}
+ .Reasons{
+    color: #e5e5e5;
+     margin-bottom:11px;
+     margin-top:60px;
+    font-size:35px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+ }
+  h3{
+    color: #e5e5e5;
+    padding-left:22px;
+    font-size:24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+ }
+  p{
+    color: rgb(179, 179, 194);
+    padding-left:22px;
+    padding-right:22px;
+     font-size: 15px;
+    font-weight: 600; 
+    letter-spacing:1px;
+    
+ }
+ .CardsRow{
+     display:flex;
+     width:100%;
+     height:auto;
+}
+.Benefits{
+     display:flex;
+     height:auto;
+     width:100%;
+     position:relative;
+     z-index:1;
+     gap:15px;
+     flex-wrap:wrap;
+}
+.Benefit{
+     display:flex;
+     flex-direction:column;
+     height:325px;
+      flex: 1 1 250px;
+      min-width:200px;
+     align-self:flex-start;
+      position:relative;
+     border-radius:10px;
+      z-index:2;
+      margin:0;
+ background: linear-gradient(
+  to bottom right,
+   #141b3a 0%,
+  #1a1742 35%,
+  #241028 70%,
+   #1a0e14 100%
+);
+  
+}
+.Benefit img{
+      
+     width:65px;
+     position:absolute;
+     z-index:3;
+     right:20px;
+     bottom:20px;
+      
+}
+.Benefit .mic{
+     width:80px;
+}
+.Benefit .smile{
+     width:70px;
+}
+ 
+ 

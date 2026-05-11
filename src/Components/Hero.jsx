@@ -2,7 +2,6 @@ import './Hero.css'
 import Navbar from './Navbar';
 import Banner from './Banner'
 import Curve from './Curve'
-import TrendingSection from './TrendingSection'
 function Hero(){
     return (
         <>
@@ -10,7 +9,7 @@ function Hero(){
             <Navbar/>
             <Banner/>
             <Curve/>
-            <TrendingSection/>
+            
         </div>
         </>
     )

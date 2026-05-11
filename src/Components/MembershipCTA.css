@@ -1,0 +1,61 @@
+.membership1 {
+   font-size: 19px;
+  font-weight: 100;
+color: white;
+  
+}
+  .inputbutton1 {
+        width: 53%;
+    height: 89%;
+  padding: 4px 16px 0px 16px;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius:5px;
+ 
+}
+.inputbutton1::placeholder{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+.gotoplan{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:90%;
+    gap:8px;
+     flex-wrap:wrap;
+}
+
+.getstartbutton {
+  height: 60px;
+  padding: 0 45px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius:5px;
+}
+.MembershipCTA{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    margin-top:25px;
+    padding-top:25px
+}
+.CTA{
+    display:flex;
+    width:90%;
+    justify-content:center;
+}

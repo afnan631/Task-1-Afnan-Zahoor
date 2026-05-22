@@ -5,8 +5,9 @@ color: white;
   
 }
   .inputbutton1 {
-        width: 53%;
-    height: 89%;
+        min-width:50%;
+        flex:1;
+    height: 54px;
   padding: 4px 16px 0px 16px;
   border: 1px solid rgba(128, 128, 128, 0.7);
   background-color: rgba(0, 0, 0, 0.6);
@@ -21,7 +22,7 @@ color: white;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.7);
 }
-.gotoplan{
+.gotoplan1{
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -30,11 +31,13 @@ color: white;
     gap:8px;
      flex-wrap:wrap;
 }
-
-.getstartbutton {
+ 
+.getstartbutton1 {
+  min-width:150px;
   height: 60px;
+  width:20%;
   padding: 0 45px;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 600;
   background-color: #e50914;
   color: white;
@@ -44,6 +47,7 @@ color: white;
   align-items: center;
   gap: 10px;
   border-radius:5px;
+   
 }
 .MembershipCTA{
     display:flex;

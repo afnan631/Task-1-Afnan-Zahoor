@@ -2,6 +2,7 @@ import './Banner.css'
 function Banner(){
     return(
        
+        <div className="BannerParent">
         <div className="bannerbox">
         <div className="banner">
         <h1 className="heading">Unlimited movies,TV shows, and more</h1>
@@ -10,6 +11,7 @@ function Banner(){
         <div className='gotoplan'>
         <input type='text' placeholder='Email address' className='inputbutton'/>
         <button className="getstartbutton">Get Started  <img src='./buttonlogo.png'/></button>
+        </div>
         </div>
         </div>
         </div>

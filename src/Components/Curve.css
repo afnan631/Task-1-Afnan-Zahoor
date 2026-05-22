@@ -1,11 +1,13 @@
 .curveline {
-   width:130%;
+    
    height:150px;
    border-top:5px #ff0055 solid;
     border-top-left-radius: 50% 45%;   /* decrease a little more */
    border-top-right-radius: 50% 45%;
    position:relative;
-   left:-14%;
+    width:120%;
+left:-10%;
+ 
    margin-top:200px;
    background:black;
    

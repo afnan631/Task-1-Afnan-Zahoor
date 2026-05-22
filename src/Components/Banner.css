@@ -1,35 +1,41 @@
+ .BannerParent{
+  width:100%;
+  display:flex;
+  justify-content:center;
+ }
 .bannerbox{
-    color:White;
-    width:100%;
-    height:560px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-     
+  display:flex;
+  width:65%;
+
 }
 .banner{
-     display:flex;
-    flex-direction:column;
-    width:800px;
-    height: 272px;
-    text-align: center;
-}
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+ min-height: 60vh;        /* full screen height */
+  justify-content: center; 
 
+}
 .heading{
        font-size: 64px;
   font-weight: 900;
-  
+  color:white;
   margin-bottom:20px;
+  text-align:center;
+  font-size: clamp(28px, 5vw, 42px);
+  width:67.5%;
 }
 .membership {
-   font-size: 23px;
+    font-size: clamp(20px, 5vw, 23px);
   font-weight: 700;
   margin-top:0px;
+   text-align:center;
 }
 .membership1 {
-   font-size: 19px;
+    font-size: clamp(15px, 5vw, 19px);
   font-weight: 100;
-
+ text-align:center;
   
 }
   .inputbutton {
@@ -48,15 +54,7 @@
   font-weight: 500;
   color: rgba(255, 255, 255, 0.7);
 }
-.gotoplan{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    width:100%;
-    gap:8px;
-     
-}
+ 
  .getstartbutton {
   height: 60px;
   padding: 0 45px;
@@ -70,4 +68,11 @@
   align-items: center;
   gap: 10px;
   border-radius:5px;
+}
+.gotoplan{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  width:100%;
+  justify-content:center;
 }

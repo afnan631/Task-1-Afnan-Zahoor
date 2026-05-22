@@ -1,3 +1,25 @@
+Project Name: Netflix-Landing Page clone
+About:
+A Netflix Landing Page Clone built using React.js, CSS and Vite setup.
+Tech Stack:
+
+CSS — 68.8%
+JavaScript — 30.1%
+HTML — 1.1%
+
+Files include:
+
+src folder
+public folder
+index.html
+vite.config.js
+package.json
+
+Status: Not fully responsive yet — still working on it
+Branch: master
+How to run in vs code:
+npm install
+npm run dev
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
